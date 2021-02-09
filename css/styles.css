@@ -1,6 +1,26 @@
-.prueba {
-  -ms-flex-item-align: start;
-      -ms-grid-row-align: start;
-      align-self: start;
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;900&display=swap");
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.text-primary {
+  color: #c4168c !important;
+}
+
+.text-secondary {
+  color: #75746d !important;
+}
+
+i {
+  font-size: 30px;
+}
+
+a {
+  font-size: 20px;
 }
 /*# sourceMappingURL=styles.css.map */
