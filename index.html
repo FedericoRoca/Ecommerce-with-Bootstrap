@@ -20,9 +20,63 @@
     />
     <!--Logo-->
     <link rel="shortcut icon" href="images/Logo.png" type="image/x-icon" />
+
     <title>A+ clothes</title>
   </head>
+  <!--BODY---------------------------------------------------------------------------------->
   <body>
+    <header id="header">
+      <nav class="navbar navbar-expand-lg px-4">
+        <a href="#" class="navbar-brand"><img src="images/Logo.png" alt="logo" /></a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#myNavbar"
+        >
+          <span class="toggler-icon">
+            <i class="fas fa-bars"></i>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="navbar-nav text-capitalize mx-auto">
+            <li class="nav-item active">
+              <a href="#header" class="nav-link">home</a>
+            </li>
+            <li class="nav-item active"><a href="#about" class="nav-link">about</a></li>
+            <li class="nav-item active"><a href="#store" class="nav-link">store</a></li>
+            <li class="nav-item active">
+              <a href="#service" class="nav-link">services</a>
+            </li>
+            <li class="nav-item active">
+              <a href="#products" class="nav-link">order</a>
+            </li>
+          </ul>
+          <div class="nav-info-items d-none d-lg-flex">
+            <div
+              class="nav-info align-items-center d-flex justify-content-between mx-lg-5"
+            >
+              <span class="info-coin mx-lg-3"><i class="fas fa-phone"></i></span>
+              <p class="mb-0">+054 3293 43</p>
+            </div>
+            <div
+              id="cart-info"
+              class="nav-info align-itms-center cart-info d-flex justify-content-between mx-lg-5"
+            >
+              <span class="cart-info__icon mr-lg-3">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+              <p class="mb-0 text-capitalize">
+                <span id="item-count">2</span>
+                items-$
+                <span class="item-total">10.45</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -33,5 +87,136 @@
       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"
     ></script>
+    <script src="app.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/d9793b05d1.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a href="#" class="nav-link text-secondary mx-3">
+          <i class="ion-social-facebook"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link text-secondary mx-3">
+          <i class="ion-social-twitter"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link text-secondary mx-3">
+          <i class="ion-social-instagram"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link text-secondary mx-3">
+          <i class="ion-social-youtube"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link text-secondary mx-3">
+          <i class="ion-social-linkedin"></i>
+        </a>
+      </li>
+    </ul>
+    <span class="nav-item dropdown">
+      <a
+        class="nav-link dropdown-toggle text-secondary"
+        href="#"
+        id="navbarDropdown"
+        role="button"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        Lenguage
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">English</a>
+        <a class="dropdown-item" href="#">Spanish</a>
+        <a class="dropdown-item" href="#">French</a>
+      </div>
+    </span>
+    <span class="nav-item dropdown">
+      <a
+        class="nav-link dropdown-toggle text-secondary"
+        href="#"
+        id="navbarDropdown"
+        role="button"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        Currency
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">Dollar</a>
+        <a class="dropdown-item" href="#">Euro</a>
+      </div>
+    </span>
+    <span class="nav-item dropdown">
+      <a
+        class="nav-link dropdown-toggle text-secondary"
+        href="#"
+        id="navbarDropdown"
+        role="button"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        My account
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">Checkout</a>
+        <a class="dropdown-item" href="#">Shopping Cart</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Wishlist</a>
+      </div>
+    </span>
+  </div>
+</nav>
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img class="img-fluid ml-1" src="images/Logo.png" alt="" />
+  </a>
+
+  <span class="navbar-text mr-auto d-none d-lg-block">
+    <i class="ion-android-chat"></i>
+    &nbsp Inquiry/Helpline: 011923832
+  </span>
+
+  <form class="form-inline my-2 my-lg-0">
+    <input
+      class="form-control mr-sm-2"
+      type="search"
+      placeholder="Search Product..."
+      aria-label="Search"
+    />
+    <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+    <a href="#" class="nav-link text-secondary ml-2">
+      <i class="ion-heart"></i>
+    </a>
+    <a href="#" class="nav-link text-secondary mr-4 ml-2">
+      <i class="ion-android-cart"></i>
+    </a>
+  </form>
+</nav> -->

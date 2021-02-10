@@ -1,14 +1,14 @@
 //GENERAL
 $primary: #c4168c;
 $secondary: #75746d;
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;900&display=swap");
 
-html,
-body {
-  height: 100%;
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+html {
+  font-size: 1.2em;
 }
-body {
-  font-family: "Source Sans Pro", sans-serif;
+* {
+  font-family: "Kaushan Script", cursive;
 }
 .text-primary {
   color: $primary !important;
@@ -24,7 +24,14 @@ body {
 //   font-size: 20px;
 // }
 
-// nav img {
-//   width: 30%;
-//   height: 30%;
-// }
+nav img {
+  width: 60px;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+.toggler-icon {
+  font-size: 2.5rem;
+  color: #c4168c;
+}
