@@ -2,14 +2,6 @@
 $primary: #c4168c;
 $secondary: #75746d;
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;900&display=swap");
-// * {
-//   box-sizing: border-box;
-// }
-// *,
-// *::after,
-// ::before {
-//   box-sizing: border-box;
-// }
 
 html,
 body {
@@ -25,14 +17,14 @@ body {
   color: $secondary !important;
 }
 
-i {
-  font-size: 30px;
-}
-a {
-  font-size: 20px;
-}
+// i {
+//   font-size: 30px;
+// }
+// a {
+//   font-size: 20px;
+// }
 
-nav img {
-  width: 30%;
-  height: 30%;
-}
+// nav img {
+//   width: 30%;
+//   height: 30%;
+// }
