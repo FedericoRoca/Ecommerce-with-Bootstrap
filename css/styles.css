@@ -27,4 +27,32 @@ nav img {
   font-size: 2.5rem;
   color: #c4168c;
 }
+
+.nav-link {
+  color: #c4168c;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  font-size: 1.5rem;
+}
+
+.nav-link:hover {
+  color: #75746d;
+}
+
+.cart-info__icon {
+  cursor: pointer;
+}
+
+.cart-info {
+  cursor: pointer;
+}
+
+.cart-info:hover {
+  background-color: #c4168c;
+}
+
+.cart-info:hover,
+.cart-info__icon:hover {
+  color: white;
+}
 /*# sourceMappingURL=styles.css.map */

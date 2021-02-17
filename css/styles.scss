@@ -23,7 +23,7 @@ html {
 // a {
 //   font-size: 20px;
 // }
-
+//------------------------------NAVBAR----------------------------------------
 nav img {
   width: 60px;
 }
@@ -33,5 +33,30 @@ nav img {
 }
 .toggler-icon {
   font-size: 2.5rem;
-  color: #c4168c;
+  color: $primary;
 }
+.nav-link {
+  color: $primary;
+  transition: all 0.5s ease-in-out;
+  font-size: 1.5rem;
+}
+.nav-link:hover {
+  color: $secondary;
+}
+
+.cart-info__icon {
+  cursor: pointer;
+}
+
+.cart-info {
+  cursor: pointer;
+}
+.cart-info:hover {
+  background-color: $primary;
+}
+
+.cart-info:hover,
+.cart-info__icon:hover {
+  color: white;
+}
+//------------------------------NAVBAR----------------------------------------
