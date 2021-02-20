@@ -168,3 +168,19 @@ nav img {
 .store-item-icon:hover {
   color: $primary;
 }
+//------------------------------Footer----------------------------------------
+.footer-title {
+  background-color: #000000;
+}
+.footer-contact {
+  background: #c44a8c;
+}
+.footer-icon {
+  font-size: 1.5rem;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+
+.footer-icon:hover {
+  color: #75746d;
+}
