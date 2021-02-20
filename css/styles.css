@@ -201,12 +201,52 @@ nav img {
 
 .footer-icon {
   font-size: 1.5rem;
-  color: white;
+  color: #b3b3b1;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
 .footer-icon:hover {
-  color: #75746d;
+  color: white;
+}
+
+.cart {
+  position: absolute;
+  min-height: 10rem;
+  background: rgba(255, 255, 255, 0.8);
+  top: 0;
+  right: 0;
+  -webkit-transition: all 0.3 ease-in-out;
+  transition: all 0.3 ease-in-out;
+  width: 0;
+  overflow: hidden;
+}
+
+.show-cart {
+  padding: 2rem 1.5rem;
+  width: 19rem;
+  -webkit-transform: rotateY(-360deg);
+          transform: rotateY(-360deg);
+}
+
+.cart-item-remove {
+  color: #c4168c;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.cart-item-price {
+  -webkit-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+
+.cart-item-remove:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: black;
+}
+
+.cart-item-price {
+  font-size: 0.8rem;
 }
 /*# sourceMappingURL=styles.css.map */
