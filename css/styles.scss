@@ -191,7 +191,7 @@ nav img {
   background: rgba(255, 255, 255, 0.8);
   top: 0;
   right: 0;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.3s ease-in-out;
   width: 0;
   overflow: hidden;
 }
@@ -200,6 +200,7 @@ nav img {
   width: 19rem;
   transform: rotateY(-360deg);
 }
+
 .cart-item-remove {
   color: $primary;
   transition: all 1s ease-in-out;
@@ -213,4 +214,16 @@ nav img {
 }
 .cart-item-price {
   font-size: 0.8rem;
+}
+
+// change img
+.change-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  visibility: hidden;
+  transition: all 1s ease-in-out;
+}
+.img-container:hover .change-img {
+  visibility: visible;
 }

@@ -216,8 +216,8 @@ nav img {
   background: rgba(255, 255, 255, 0.8);
   top: 0;
   right: 0;
-  -webkit-transition: all 0.3 ease-in-out;
-  transition: all 0.3 ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   width: 0;
   overflow: hidden;
 }
@@ -248,5 +248,18 @@ nav img {
 
 .cart-item-price {
   font-size: 0.8rem;
+}
+
+.change-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  visibility: hidden;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.img-container:hover .change-img {
+  visibility: visible;
 }
 /*# sourceMappingURL=styles.css.map */
